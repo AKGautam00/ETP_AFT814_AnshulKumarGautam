@@ -15,7 +15,7 @@ public class Interaction : MonoBehaviour
     {
         controls = new InputSystem_Actions();
         controls.Player.Interact.performed += ctx => interactPressed = true;
-        OnEnable
+    
     }
 
     private void OnEnable() => controls.Enable();
