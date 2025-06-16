@@ -18,8 +18,7 @@ public class PlayerMovement : MonoBehaviour
     {
         controls = new InputSystem_Actions();
 
-        controls.Player.Move.performed += ctx => Move.Input = ctx.ReadValue<Vector2>();
-        controls.Player.Move.canceled += ctx => Move.Input = Vector2.zero;
+        
     }
 
 
