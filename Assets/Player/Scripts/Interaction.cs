@@ -27,6 +27,7 @@ public class Interaction : MonoBehaviour
         if (interactPressed)
         {
             TryInteract();
+
             interactPressed = false;
         }
     }
