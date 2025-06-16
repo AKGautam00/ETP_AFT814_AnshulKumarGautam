@@ -24,7 +24,6 @@ public class Interaction : MonoBehaviour
     private void Update()
     {
         DrawDebugRay();
-
         if (interactPressed)
         {
             TryInteract();
